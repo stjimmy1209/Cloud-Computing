@@ -1,0 +1,107 @@
+Benchmarking random permutation for 1 thread and 1 KB block size:
+Make permutation: filling permuting cycle=144
+Make permutation: filling permuting cycle=144
+RESULT	datetime=2019-03-26 01:17:45	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=1	areasize=1024	threadsize=1152	testsize=1152	repeats=5428247	testvol=6253340544	testaccess=781667568	time=1.2541335010901093483	bandwidth=4986184117.21281147	rate=1.6044333325725360035e-09
+Make permutation: filling permuting cycle=144
+Make permutation: filling permuting cycle=144
+RESULT	datetime=2019-03-26 01:17:46	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=1	areasize=1024	threadsize=1152	testsize=1152	repeats=6639083	testvol=7648223616	testaccess=956027952	time=1.2092422321438789368	bandwidth=6324806901.9557638168	rate=1.2648607497449811941e-09
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 1 thread and 1 MB block size:
+Make permutation: filling permuting cycle=131088
+RESULT	datetime=2019-03-26 01:17:50	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=1	areasize=1048576	threadsize=1048704	testsize=1048704	repeats=1024	testvol=1073872896	testaccess=134234112	time=2.3426175708882510662	bandwidth=458407257.4819880724	rate=1.7451730681454883523e-08
+Make permutation: filling permuting cycle=131088
+RESULT	datetime=2019-03-26 01:17:52	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=1	areasize=1048576	threadsize=1048704	testsize=1048704	repeats=1024	testvol=1073872896	testaccess=134234112	time=2.309945262037217617	bandwidth=464891057.65775406361	rate=1.7208332722737553395e-08
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 1 thread and 10 MB block size:
+Make permutation: filling permuting cycle=1310736
+RESULT	datetime=2019-03-26 01:17:57	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=1	areasize=10485760	threadsize=10485888	testsize=10485888	repeats=103	testvol=1080046464	testaccess=135005808	time=3.5363121591508388519	bandwidth=305416042.30418038368	rate=2.6193777968062223895e-08
+Make permutation: filling permuting cycle=1310736
+RESULT	datetime=2019-03-26 01:18:01	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=1	areasize=10485760	threadsize=10485888	testsize=10485888	repeats=103	testvol=1080046464	testaccess=135005808	time=3.4472954929806292057	bandwidth=313302548.67886632681	rate=2.5534423622579474649e-08
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 2 thread and 1 KB block size:
+Make permutation: filling permuting cycle=80 filling permuting cycle=80
+Make permutation: filling permuting cycle=80 filling permuting cycle=80
+RESULT	datetime=2019-03-26 01:18:03	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=2	areasize=1024	threadsize=640	testsize=1280	repeats=9503728	testvol=12164771840	testaccess=1520596480	time=1.2555030290968716145	bandwidth=9689161681.0757980347	rate=8.2566482667174898347e-10
+Make permutation: filling permuting cycle=80 filling permuting cycle=80
+Make permutation: filling permuting filling permuting cycle=80 cycle=80
+RESULT	datetime=2019-03-26 01:18:05	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=2	areasize=1024	threadsize=640	testsize=1280	repeats=14918516	testvol=19095700480	testaccess=2386962560	time=1.2716858198400586843	bandwidth=15016052064.181770325	rate=5.3276320339103210681e-10
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 2 thread and 1 MB block size:
+Make permutation: filling permuting cycle=65552 filling permuting cycle=65552
+RESULT	datetime=2019-03-26 01:18:08	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=2	areasize=1048576	threadsize=524416	testsize=1048832	repeats=2048	testvol=2148007936	testaccess=268500992	time=1.8256211490370333195	bandwidth=1176590190.7594668865	rate=6.799308767682442444e-09
+Make permutation: filling filling permuting permuting cycle=65552 cycle=65552
+RESULT	datetime=2019-03-26 01:18:10	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=2	areasize=1048576	threadsize=524416	testsize=1048832	repeats=2048	testvol=2148007936	testaccess=268500992	time=1.8033438720740377903	bandwidth=1191124981.3545331955	rate=6.7163397000560724008e-09
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 2 thread and 10 MB block size:
+Make permutation: filling permuting filling permuting cycle=655376 cycle=655376
+RESULT	datetime=2019-03-26 01:18:14	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=2	areasize=10485760	threadsize=5243008	testsize=10486016	repeats=205	testvol=2149633280	testaccess=268704160	time=2.9443453620187938213	bandwidth=730088700.77866864204	rate=1.0957572677768717708e-08
+Make permutation: filling permuting filling permuting cycle=655376 cycle=655376
+RESULT	datetime=2019-03-26 01:18:17	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=2	areasize=10485760	threadsize=5243008	testsize=10486016	repeats=205	testvol=2149633280	testaccess=268704160	time=3.115585284773260355	bandwidth=689961302.13666784763	rate=1.1594853182672200797e-08
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 4 thread and 1 KB block size:
+Make permutation: filling permuting cycle=48 filling permuting cycle=48 filling permuting cycle=48 filling permuting cycle=48
+Make permutation: filling permuting filling cycle=48 filling permuting cycle=48 filling permuting cycle=48 permuting cycle=48
+Make permutation: filling permuting filling cycle= filling48 filling permuting cycle=48 permuting cycle=48 permuting cycle=48
+RESULT	datetime=2019-03-26 01:18:21	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=4	areasize=1024	threadsize=384	testsize=1536	repeats=35430532	testvol=54421297152	testaccess=6802662144	time=1.4675850388593971729	bandwidth=37082210373.509986877	rate=2.1573687003606645663e-10
+Make permutation: filling permuting filling cycle=48 filling permuting cycle=48 filling permuting cycle= permuting cycle=4848
+Make permutation: filling permuting cycle=48 filling filling permuting cycle=48 filling permuting cycle=48 permuting cycle=48
+RESULT	datetime=2019-03-26 01:18:22	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=4	areasize=1024	threadsize=384	testsize=1536	repeats=27887689	testvol=42835490304	testaccess=5354436288	time=1.1262192009016871452	bandwidth=38034771800.82219696	rate=2.1033385034867130909e-10
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 4 thread and 1 MB block size:
+Make permutation: filling permuting cycle=32784 filling permuting cycle=32784 filling permuting cycle=32784 filling permuting cycle=32784
+Make permutation: filling filling permuting permuting filling filling permuting permuting cycle=32784 cycle=32784 cycle=32784 cycle=32784
+RESULT	datetime=2019-03-26 01:18:26	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=4	areasize=1048576	threadsize=262272	testsize=1049088	repeats=6478	testvol=6795992064	testaccess=849499008	time=1.4281350451055914164	bandwidth=4758648061.533654213	rate=1.6811497502132356365e-09
+Make permutation: filling filling permuting permuting cycle=32784 filling cycle=32784 filling permuting permuting cycle=32784 cycle=32784
+Make permutation: filling filling permuting filling permuting permuting cycle=32784 filling permuting cycle=32784 cycle=32784 cycle=32784
+RESULT	datetime=2019-03-26 01:18:28	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=4	areasize=1048576	threadsize=262272	testsize=1049088	repeats=6452	testvol=6768715776	testaccess=846089472	time=1.4117061849683523178	bandwidth=4794705759.6490879059	rate=1.6685069743644704435e-09
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 4 thread and 10 MB block size:
+Make permutation: filling filling permuting permuting filling permuting cycle=327696 cycle=327696 cycle=327696 filling permuting cycle=327696
+RESULT	datetime=2019-03-26 01:18:32	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=4	areasize=10485760	threadsize=2621568	testsize=10486272	repeats=410	testvol=4299371520	testaccess=537421440	time=2.6998978778719902039	bandwidth=1592420052.3423817158	rate=5.0238000885710663258e-09
+Make permutation: filling filling filling filling permuting permuting permuting permuting cycle=327696 cycle=327696 cycle=327696 cycle=327696
+RESULT	datetime=2019-03-26 01:18:35	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=4	areasize=10485760	threadsize=2621568	testsize=10486272	repeats=410	testvol=4299371520	testaccess=537421440	time=2.6365697782021015882	bandwidth=1630668588.9920866489	rate=4.9059631454266160567e-09
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 8 thread and 1 KB block size:
+Make permutation: filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32
+Make permutation: filling filling filling permuting cycle=32 filling permuting cycle=32 permuting cycle=32 filling permuting cycle=32 permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32
+RESULT	datetime=2019-03-26 01:18:37	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=8	areasize=1024	threadsize=256	testsize=2048	repeats=24361512	testvol=49892376576	testaccess=6236547072	time=1.0870893609244376421	bandwidth=45895377481.730285645	rate=1.7430949343830072601e-10
+Make permutation: filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32 filling filling permuting cycle=32 filling permuting cycle=32 permuting filling permuting cycle=32 cycle=32
+Make permutation: filling permuting cycle= filling filling filling filling permuting cycle=32 permuting cycle=32 filling permuting cycle=32 permuting cycle=3232 permuting cycle=32 filling permuting cycle=32 filling permuting cycle=32
+RESULT	datetime=2019-03-26 01:18:39	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=8	areasize=1024	threadsize=256	testsize=2048	repeats=28906618	testvol=59200753664	testaccess=7400094208	time=1.2194877818692475557	bandwidth=48545589832.19682312	rate=1.6479354824306145243e-10
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 8 thread and 1 MB block size:
+Make permutation: filling filling filling permuting permuting cycle=16400 filling permuting filling permuting cycle= cycle=1640016400 permuting cycle=16400 filling permuting cycle=16400 filling permuting cycle=16400 filling permuting cycle=16400 cycle=16400
+RESULT	datetime=2019-03-26 01:18:41	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=8	areasize=1048576	threadsize=131200	testsize=1049600	repeats=8185	testvol=8590976000	testaccess=1073872000	time=1.2171782590448856354	bandwidth=7058108322.3925647736	rate=1.1334481754295537412e-09
+Make permutation: filling filling filling permuting permuting permuting cycle=16400 filling cycle=16400 filling permuting cycle=16400 permuting cycle=16400 cycle=16400 filling permuting cycle=16400 filling permuting cycle=16400 filling permuting cycle=16400
+RESULT	datetime=2019-03-26 01:18:42	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=8	areasize=1048576	threadsize=131200	testsize=1049600	repeats=8185	testvol=8590976000	testaccess=1073872000	time=1.1846008729189634323	bandwidth=7252211437.9597406387	rate=1.1031117981649240927e-09
+****************************************
+****************************************
+****************************************
+Benchmarking random permutation for 8 thread and 10 MB block size:
+Make permutation: filling filling filling permuting permuting permuting cycle=163856 filling permuting filling permuting cycle=163856 filling cycle=163856 filling permuting cycle=163856 permuting cycle=163856 filling permuting cycle=163856 cycle=163856 cycle=163856
+RESULT	datetime=2019-03-26 01:18:48	host=hw3-hye	version=0.6.2	funcname=PermRead64SimpleLoop	nthreads=8	areasize=10485760	threadsize=1310848	testsize=10486784	repeats=820	testvol=8599162880	testaccess=1074895360	time=4.7042438660282641649	bandwidth=1827958567.815526247	rate=4.3764668088512954633e-09
+Make permutation: filling filling filling filling permuting permuting permuting cycle=163856 filling permuting filling permuting cycle=163856 filling permuting cycle=163856 permuting cycle=163856 cycle=163856 filling permuting cycle=163856 cycle=163856 cycle=163856
+RESULT	datetime=2019-03-26 01:18:53	host=hw3-hye	version=0.6.2	funcname=PermRead64UnrollLoop	nthreads=8	areasize=10485760	threadsize=1310848	testsize=10486784	repeats=820	testvol=8599162880	testaccess=1074895360	time=4.7265126768033951521	bandwidth=1819346200.4667108059	rate=4.3971839982669527452e-09
+****************************************
+****************************************
+****************************************
